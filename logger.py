@@ -92,4 +92,5 @@ def register_logger(app):
 
     logging.basicConfig(level=logging.INFO)
 
-app = create_app()
+if __name__ == '__main__':
+    app = create_app()
